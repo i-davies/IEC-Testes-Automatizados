@@ -3,7 +3,7 @@ def calcular_xp(tempo_resposta: float) -> int:
         return 100
     if tempo_resposta <= 15:
         return 50
-    return 25
+    return 30
 
 
 def verificar_resposta(resposta: str, gabarito: str) -> bool:
